@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a0646e"
+    tools:context=".PaginaDoProduto">
+
+    <ImageView
+        android:id="@+id/imagem_produto"
+        android:src="@drawable/bolsamedia"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/nome_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Bolsa Média"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    A partir de"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/preco_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  R$ 150.00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/descricao_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Descrição"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/desc_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+Material Utilizado\n
+Tecido Sintético Linho + Shine Rosê \n
+Medidas\n
+Altura: 29 cm\n
+Largura: 38 cm\n
+Profundidade: 18 cm\n"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Entre para comprar"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
