@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Ddm_lojavirtual">
         <activity android:name=".Login"></activity>
         <activity android:name=".PaginaDoProduto" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

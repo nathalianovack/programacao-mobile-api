@@ -75,7 +75,7 @@ Profundidade: 18 cm\n"
         android:textColor="@color/white"
         android:layout_marginTop="10dp" />
     <Button
-        android:id="@+id/login"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

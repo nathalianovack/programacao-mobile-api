@@ -10,7 +10,7 @@ class PaginaDoProduto : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagina_do_produto)
 
-        val login = findViewById(R.id.login) as Button
+        val login = findViewById(R.id.btnLogin) as Button
         login.setOnClickListener{
             val login = Intent(this, Login::class.java)
             startActivity(login)
